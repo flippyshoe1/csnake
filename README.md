@@ -1,13 +1,18 @@
 a snake game written entirely in c using the ncurses library.
 
+requirements:
+a linux distrobution (preferably arch/debian based)
+a C compiler (preferably gcc unless you want to modify the makefile)
+libncurses
+
 dependencies (debian and derivatives)
 ```shell
-apt install glibc
+apt install build-essential libncurses6
 ```
 
 dependencies (arch and derivatives)
 ```shell
-pacman -S glibc ncurses
+pacman -S gcc ncurses
 ```
 
 to build a binary
